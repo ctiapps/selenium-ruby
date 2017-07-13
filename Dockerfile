@@ -22,7 +22,10 @@ RUN apt-get update \
 \
 && echo "Installing selenium stuff" \
 && gem install --no-rdoc --no-ri \
+     pry \
+     selenium-webdriver \
      watir \
+     capybara \
 \
 && echo "Cleaning up system" \
 && apt-get -yqq purge unzip \
