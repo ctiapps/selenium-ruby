@@ -23,6 +23,7 @@ RUN apt-get update \
 && echo "Installing selenium stuff" \
 && gem install --no-rdoc --no-ri \
      pry \
+     faker \
      selenium-webdriver \
      watir \
      capybara \
